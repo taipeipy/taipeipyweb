@@ -6,6 +6,9 @@ url = https://raise.python.taipei/
 name = taipeipyweb
 url_style = absolute
 
+[servers.ghpages]
+target = ghpages+https://github.com/taipeipy/taipeipyweb.git
+
 ; [servers.production]
 ; enabled = yes
 ; name = Production
