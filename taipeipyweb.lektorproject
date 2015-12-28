@@ -7,7 +7,7 @@ name = taipeipyweb
 url_style = absolute
 
 [servers.ghpages]
-target = ghpages+https://github.com/taipeipy/taipeipyweb.git
+target = ghpages+https://taipeipy/taipeipyweb
 
 ; [servers.production]
 ; enabled = yes
