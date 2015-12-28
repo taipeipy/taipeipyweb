@@ -1,4 +1,4 @@
 language: python
 python: 2.7
 install: "pip install Lektor"
-script: "cd taipeipyweb && lektor build && lektor deploy ghpages"
+script: "lektor build && lektor deploy ghpages"
