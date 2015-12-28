@@ -1,10 +1,6 @@
 [project]
 name = taipeipyweb
-url = https://raise.python.taipei/
-
-[project]
-name = taipeipyweb
-url_style = absolute
+url = https://taipeipy.github.io/taipeipyweb
 
 [servers.ghpages]
 target = ghpages+https://taipeipy/taipeipyweb
