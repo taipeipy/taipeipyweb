@@ -1,0 +1,23 @@
+_model: page
+---
+title: （前）聚會歷史
+---
+body:
+
+### 最初的原點
+
+繼 [PyCon TW 2012](http://tw.pycon.org/2012/) 、[COSCUP 2012](http://coscup.org/2012/) 後，我們發現台北的 Python 使用者與議題已經多到不聚不可、不分享不行了，於是我們開始來試試，每個月固定來辦個聚會，歡迎來分享、研究、把玩、認識 Python 五花八門的應用與技術，之[道](/zen)。
+
+2013-02 以及之後的活動都在 [Taipei.py 的 Past Meetups 上](http://www.meetup.com/Taipei-py/#past)囉。
+
+### 前幾場活動
+
+都辦在果子咖啡：
+
+* [2012-09-27 Performance Enhancement Tips by Hsu Wen Chang](/history/2012-09-27-performance-enhancement-tips-by-hsu-wen-chang)
+* [2012-10-25 Machine Learning and Optimization tools in Python by c3h3](/history/2012-10-25-machine-learning-and-optimization-tools-in-python-by-c3h3)
+* [2012-11-29 Pinkoi x Startup x Python x Plone x CMS x EnhacedYAML by Mike, marr and mosky](/history/2012-11-29-pinkoi-startup-python-plone-cms-mike-marr)
+* [2012-12-20 Celery in the Django by Walter Liu](/history/2012-12-20-celery-in-the-django-by-walter-liu)
+* 2013-01-14 Big Python - Do you play Super MaRiO? by Kilik Kuo; Lighting Talk by WhosCall
+
+

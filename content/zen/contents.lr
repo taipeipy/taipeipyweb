@@ -1,10 +1,10 @@
 _model: page
 ---
-title: 道
+title: Python 之道
 ---
 body:
 
-## 【Python 之道】
+    import this
 
 ### The Zen of Python
 
