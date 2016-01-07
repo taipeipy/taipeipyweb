@@ -23,11 +23,93 @@
   <div class="page">
     
   <h2>Projects On!</h2>
-  <p>Projects to hack:</p>
+  <p><em>”Everything is more fun as a shared activity.”</em></p>
+<p>你有太多有趣的主意與專案，也許這麼剛好跟 Python 扯上一點關係，那歡迎 BYOP (bring your odd project)(or, obvious project) 一起來玩。或著更加行話地說，Taipei.py Sprints。</p>
+<p>在每個月中的一個晚上或星期六白天，利用聚會期間的機會，成員聚集在 Sprint 場地中，依各自有興趣的項目，一起密集的進行專案衝刺。</p>
+<h2 id="getting-started">Getting Started</h2><p>Join project <a href="https://gitter.im/taipeipy/projectson">chat-room (&amp; live announcement) on Gitter</a>.</p>
+<h3 id="">參加</h3><ol>
+<li>RSVP:Yes to <a href="http://www.meetup.com/Taipei-py/">Taipei.py Projects On meetup event</a> and attend.</li>
+<li>Bring your wicked, playful, and fun-loving heart with passion, curiosity, gratitude, or all of them.</li>
+</ol>
+<h3 id="bring-your-project-s-on">Bring your project(s) on!</h3><p>You can just bring it by attending the meetup.</p>
+<p>Or, digital style:</p>
+<ol>
+<li>Goto <a href="https://trello.com/b/o6SHNPX2/projects-on">Taipei.py Projects On Trello board</a></li>
+<li>Add a card for your project in <strong>Proejcts Proposing</strong> list.</li>
+<li>Still, ATTEND the event physically!</li>
+</ol>
+<h2 id="projects-presented:">Projects presented:</h2><h3 id="">強打</h3><ul>
+<li><p><strong>Taipei.py Web</strong> &amp; Projects On content by Keith</p>
 <ul>
-<li>Taipei.py Web</li>
-<li>Project 2</li>
-<li>Project 3</li>
+<li><a href="https://github.com/taipeipy/taipeipyweb">https://github.com/taipeipy/taipeipyweb</a></li>
+<li>使用有夠新的 <a href="https://www.getlektor.com/">Letkor CMS</a></li>
+<li>未來的 Taipei.py 官網</li>
+</ul>
+</li>
+<li><p><strong>ctypes-ejdb</strong>: Pure Python binding for an embedded schema-free database <a href="http://ejdb.org">EJDB</a>.</p>
+<ul>
+<li><a href="https://github.com/uranusjr/ctypes-ejdb">https://github.com/uranusjr/ctypes-ejdb</a></li>
+<li>目前比較大的問題是 <a href="https://github.com/uranusjr/ctypes-ejdb/issues/7">#7</a>。uranusjr 用了 ptpython 來實作自帶的 CLI 工具，但目前 highlighting 在 Windows 上會顯示不正確。ptpython 本身沒有這個問題，所以應該是用法不對，但還不知道要怎麼改。</li>
+<li>如果有人有興趣的話，目前文件非常缺乏，uranusjr 可以直接解釋要怎麼用，然後就可以寫上去。</li>
+</ul>
+</li>
+<li><p><strong>revivalkit</strong> Revive from Ctrl-C or any exception! by <a href="http://mosky.tw/">Mosky</a></p>
+<ul>
+<li><a href="https://github.com/moskytw/revivalkit">https://github.com/moskytw/revivalkit</a></li>
+</ul>
+</li>
+<li><p><strong>Python 3.5 說明文件翻譯</strong> Python official doc translation by <a href="https://twitter.com/ccwang002">liang2</a></p>
+<ul>
+<li>Goal: Translate the official doc of Python 3.5</li>
+<li>專案管理在 Github 上（包含 Gitter 聊天室、Issue、Wiki）<ul>
+<li><a href="https://github.com/python-doc-tw/python-doc-tw">https://github.com/python-doc-tw/python-doc-tw</a></li>
+</ul>
+</li>
+<li>Workflow:<ul>
+<li>Sphinx to export translation .po files</li>
+<li>Collaborated translation by Transfix</li>
+<li>Details are all documented in my pinned tweet</li>
+<li>(shamelessly copy full pydoc-jp's solution)</li>
+</ul>
+</li>
+<li>2015-12-11 Update: 基礎架構完成，開工</li>
+</ul>
+</li>
+<li><p><strong>Style Guide APP For Django</strong> by Tim Hsu <a href="https://github.com/dorm7/django_kss">https://github.com/dorm7/django_kss</a></p>
+</li>
+</ul>
+<h3 id="project-lead">也會出現的 Project Lead</h3><ul>
+<li><strong>jedi-typer</strong> by <a href="https://taipeipy.hackpad.com/ep/profile/nv7IdHdjUAJ">TJ Wei</a>: 這是 cython 裡面的一個工具，能自動幫 python 程式碼加上型態資訊。目前的 cython 版本裡面的 jedi-typer 是我改寫的。有興趣的朋友，可以一起來改進一下。最後會貢獻到 cython 官方版本裡面。 目前我還有一些改進和修正，太忙，還沒傳回官方版本中。 <a href="https://github.com/cython/cython/blob/master/Tools/jedityper.py">https://github.com/cython/cython/blob/master/Tools/jedityper.py</a></li>
+<li><strong>EyePython</strong> by <a href="https://taipeipy.hackpad.com/ep/profile/nv7IdHdjUAJ">TJ Wei</a>: ipython 的變數監視器，目前會在右上角出現一個浮動視窗，顯示變數改變。用途是教學與除錯。目前有點醜，想要更加視覺化一點。 <a href="https://github.com/tjwei/EyePython">https://github.com/tjwei/EyePython</a></li>
+<li><p><strong>台灣熱點地圖</strong>:</p>
+<ul>
+<li>bitbucket: <a href="https://bitbucket.org/am5t/tphotzone">https://bitbucket.org/am5t/tphotzone</a></li>
+<li><p><a href="https://tw-hotzone.appspot.com/">alpha-site</a>:
+將政府公開資料以視覺化方式呈現在地圖上，例如犯罪熱點，實價登錄，停車場，免費WI-FI。</p>
+</li>
+<li><p>用python+google app engine實作backend api</p>
+</li>
+<li>用AngularJS製作frontend</li>
+<li>用python製作匯入後台資料工具程式</li>
+<li>替後台資料匯入做front-end</li>
+<li>行動裝置端App</li>
+</ul>
+</li>
+<li><a href="https://github.com/openstack/kiloeyes">https://github.com/openstack/kiloeyes</a>   果凍</li>
+<li><strong>SockJS</strong> client/server for asyncio<ul>
+<li><a href="https://github.com/adrianliaw/aiosockjs">https://github.com/adrianliaw/aiosockjs</a></li>
+</ul>
+</li>
+<li><strong>Karma It</strong> - Crawler of yourself. by Keith<ul>
+<li><a href="https://github.com/keitheis/karmait">https://github.com/keitheis/karmait</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="">專案資料庫</h3><ul>
+<li><a href="https://taipeipy.hackpad.com/Taipei.py-Projects-On-2015-11-04-9RRAWpg9bHn">Taipei.py Projects On 2015-11-04 - taipeipy.hackpad.com</a></li>
+<li><a href="https://taipeipy.hackpad.com/Taipei.py-Projects-On-2015-12-09-6gQvSe9KX9K">Taipei.py Projects On 2015-12-09 - taipeipy.hackpad.com</a></li>
+<li><a href="https://github.com/tjwei/awesome-tw-foss">awesome-Taiwan</a> A curated list of awesome Free/Open Source Software projects started in <em>Taiwan</em> or by <em>Taiwanese</em> people.</li>
+<li><a href="https://github.com/vinta/awesome-python">awesome-python</a>  A curated list of awesome Python frameworks, libraries and software <a href="http://awesome-python.com/">http://awesome-python.com/</a> </li>
 </ul>
 
 
