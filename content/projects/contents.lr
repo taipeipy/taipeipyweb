@@ -45,6 +45,10 @@ Or, digital style:
 * **revivalkit** Revive from Ctrl-C or any exception! by [Mosky](http://mosky.tw/)
   * https://github.com/moskytw/revivalkit
 
+* **PyDrum** - RPi 電子鼓 by PCMan
+  * 完整 source code https://github.com/PCMan/pydrum
+  * Rpi+FSR 力量傳感器使用教學 http://blog.pcman.im/
+
 * **Python 3.5 說明文件翻譯** Python official doc translation by [liang2](https://twitter.com/ccwang002) 
   * Goal: Translate the official doc of Python 3.5
   * 專案管理在 Github 上（包含 Gitter 聊天室、Issue、Wiki）
