@@ -3,7 +3,7 @@
 The download link is at the top right corner in this page:
 https://www.getlektor.com/
 
-## If you do not want to install the desktop app then you can just install the command line executable. 
+## If you do not want to install the desktop app then you can just install the command line executable.
 
 https://www.getlektor.com/docs/installation/
 
