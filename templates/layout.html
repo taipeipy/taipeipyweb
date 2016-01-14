@@ -1,28 +1,54 @@
 <!doctype html>
 <meta charset="utf-8">
-<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-<title>{% block title %}Welcome{% endblock %} — Taipei.py</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<!-- link rel="stylesheet" href="{{ '/static/style.css'|url }}"-->
 <body>
   <header>
-    <h1><a href="{{ '/'|url }}">Taipei.py</a></h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">歡迎來玩！</a></li>
-        {% for href, title in [
-          ['/meetings', '聚會：報名、投稿'],
-          ['/projects', 'Projects On 專案'],
-          ['/history', '歷史紀錄'],
-          ['/resources_contacts_links', '資源、聯絡、連結'],
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
-        {% endfor %}
-      </ul>
+    <!--title>{% block title %}Welcome{% endblock %} — Taipei.py</title-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="{{ '/'|url }}">Taipei.py</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li{% if this._path == '/' %} class="active"{% endif
+                  %}><a href="{{ '/'|url }}">歡迎來玩！</a></li>
+                {% for href, title in [
+                  ['/meetings', '聚會：報名、投稿'],
+                  ['/projects', 'Projects On 專案'],
+                  ['/history', '歷史紀錄'],
+                  ['/resources_contacts_links', '資源、聯絡、連結'],
+                ] %}
+                  <li{% if this.is_child_of(href) %} class="active"{% endif
+                    %}><a href="{{ href|url }}">{{ title }}</a></li>
+                {% endfor %}
+              </ul>
+            </div><!--/.nav-collapse -->
+        </div>
     </nav>
   </header>
-  <div class="page">
-    {% block body %}{% endblock %}
+  <div class="container">
+    <div class="starter-template">
+      <div class="page">
+        {% block body %}{% endblock %}
+      </div>
+    </div>
   </div>
   <footer>
     <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
