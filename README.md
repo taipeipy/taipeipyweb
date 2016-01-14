@@ -3,7 +3,8 @@
 The download link is at the top right corner in this page:
 https://www.getlektor.com/
 
-## If you do not want to install the desktop app then you can just install the command line executable.
+## If you do not want to install the desktop app then you can just install the
+command line executable. 
 
 https://www.getlektor.com/docs/installation/
 
@@ -27,3 +28,7 @@ pip install Lektor
 ### For Mac OS, what to do if `clang` complains about  `unknown argument` ?
 
 1. Reference http://goo.gl/zDxei7
+=======
+# taipeipyweb
+
+[![Gitter](https://badges.gitter.im/taipeipy/taipeipyweb.svg)](https://gitter.im/taipeipy/taipeipyweb?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
