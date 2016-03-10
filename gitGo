@@ -1,0 +1,6 @@
+#/bin/sh
+
+echo "git FILE COMMIT_LOG"
+git add "${1}"
+git commit "{1}" -m "{2}"
+git push origin

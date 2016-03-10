@@ -39,5 +39,3 @@ pip install Lektor
 * For Mac OS, what to do if `clang` complains about `unknown argument` ?
 
 1. Reference [here](http://goo.gl/zDxei7).
-
-[Lektor] https://www.getlektor.com/
